@@ -1,0 +1,48 @@
+{
+    "classes": [
+        {
+            "className": "rogue",
+            "healthDefault": "75",
+            "weaponTypes":[
+                "dagger",
+                "sword"
+            ],
+            "damageType": "melee"
+        },
+        {
+            "className": "warrior",
+            "healthDefault": "125",
+            "weaponTypes":[
+                "sword",
+                "shield"
+            ],
+            "damageType": "melee"
+        },
+        {
+            "className": "priest",
+            "healthDefault": "80",
+            "weaponTypes":[
+                "staff"
+            ],
+            "damageType": "magic"
+        },
+        {
+            "className": "ranger",
+            "healthDefault": "100",
+            "weaponTypes":[
+                "bow",
+                "gun"
+            ],
+            "damageType": "ranged"
+        },
+        {
+            "className": "mage",
+            "healthDefault": "75",
+            "weaponTypes":[
+                "staff",
+                "wand"
+            ],
+            "damageType": "magic"
+        }
+    ]
+}

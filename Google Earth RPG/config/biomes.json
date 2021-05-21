@@ -1,0 +1,96 @@
+{
+    "attributeType": "Modifier",
+    "biomes": [
+        {
+            "biomeName": "Tropical Rainforest",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Temperate Forest",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Desert",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Tundra",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Taiga",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Grassland",
+            "modifiers": [
+                "windy"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Savanna",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Freshwater",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        },
+        {
+            "biomeName": "Marine",
+            "modifiers": [
+                "wet"
+            ],
+            "spawnRate": "1.0",
+            "subBiomes":[
+
+            ]
+        }
+       
+    ]
+}
