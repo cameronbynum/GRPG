@@ -11,4 +11,6 @@ body {
     height:100%
 }
 
-#nav_bar .nav_button {display:inline-block;}
+#nav_bar .nav_button {
+    display:inline-block;
+}
