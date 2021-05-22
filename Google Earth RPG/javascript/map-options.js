@@ -11,8 +11,8 @@
         draggable: true,
         //roadmap, satellite, hybrid, terrain
         mapTypeId: google.maps.MapTypeId.roadmap,
-        maxZoom: 11,
-        minZoom: 9,
+        maxZoom: 110,
+        minZoom: 0,
         zoomControlOptions: {
             position: google.maps.ControlPosition.LEFT_BOTTOM,
             style: google.maps.ZoomControlStyle.DEFAULT
