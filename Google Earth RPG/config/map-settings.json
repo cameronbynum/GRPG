@@ -1,0 +1,20 @@
+{
+    "settings":[
+        {"backgroundColor": "blue"},
+        {"clickableIcons": "True"},
+        {"controlSize": "10"},
+        {"disableDefaultUI": "True"},
+        {"disableDoubleClickZoom": "True"},
+        {"fullscreenControl": "True"},
+        {"heading": "10"},
+        {"keyboardShortcuts": "True"},
+        {"mapId": "True"},
+        {"mapTypeControl": "True"},
+        {"maxZoom": "11"},
+        {"minZoom": "9"},
+        {"panControl": "True"},
+        {"scrollwheel": "True"},
+        {"mapTypeID": "hybrid"},  
+        {"mapTypeControl": "True"}
+    ]
+}
