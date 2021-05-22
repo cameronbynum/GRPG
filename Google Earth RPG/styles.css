@@ -10,3 +10,5 @@ body {
 #map-canvas {
     height:100%
 }
+
+#nav_bar .nav_button {display:inline-block;}
