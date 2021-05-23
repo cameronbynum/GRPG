@@ -1,20 +1,49 @@
 <!DOCTYPE html>
 <html>  
 <head>  
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">  
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../css/styles.css"> 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
-<div id="nav_bar">
-    <li class="nav_button"> <a href="index.html">Home</a> </li>
-    <li class="nav_button"> <a href="grpg-main.html">GRPG</a> </li>
-</div>    
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="grpg-main.html">About Me</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Projects
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="grpg-main.html">GRPG</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Suggest a Project</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
 <body>
-    <div class="container-md">
+    <div class="container-fluid p-10 pt-10">
         <div class="row gx-5 gy-0 mx--2">
-            <div class="text-center col-md-2 pt-5 pb-5">
-                <div class="card" style="width: 10rem">
+            <div class="justify-content-center col-md-2 pt-5 pb-5">
+                <div class="self-portrait">
+                    <img src="../images/clipart portrait.jpg" class="d-block w-100" alt="..." style="width:624px; height:624px;">
+                </div>
+                <div class="card" style="width: 20rem">
                     <div class="card-body">
                         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -24,8 +53,9 @@
                         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                     </div>
                 </div>
+
             </div>
-            <div class="text-center col-md-6 mx-4">
+            <div class="text-center col-md-9 mx-4 pt-5 pb-5">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -33,14 +63,14 @@
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active carousel-image">
                             <img src="../images/earth.jpg" class="d-block w-100" alt="..." style="width:624px; height:624px;">
                         </div>
-                        <div class="carousel-item">
-                            <img src="../images/computer.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item carousel-image">
+                            <img src="../images/computer.jpg" class="d-block w-100" alt="..." style="width:624px; height:624px;">
                         </div>
-                        <div class="carousel-item">
-                            <img src="../images/street.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item carousel-image">
+                            <img src="../images/street.jpg" class="d-block w-100" alt="..." style="width:624px; height:624px;">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -53,7 +83,7 @@
                     </button>
                   </div>
             </div>
-            <div class="text-center col-md-2"></div>
+
     </div>
     <script src="../javascript/bootstrap/bootstrap.js"></script>
 
