@@ -1164,7 +1164,6 @@ progress {
   .col-md-9 {
     flex: 0 0 auto;
     width: 75%;
-    background-color: navy;
   }
 
   .col-md-10 {
@@ -5732,6 +5731,7 @@ textarea.form-control-lg {
 }
 
 .carousel-inner {
+  margin: auto;
   position: relative;
   width: 100%;
   overflow: hidden;

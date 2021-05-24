@@ -27,13 +27,14 @@ html, body {
   }
 
 .carousel-image{
+    
     max-width: 624px;
     margin: 0 auto; /* Added */
-    float: none; /* Added */
+    margin-left: auto;
+    margin-right: auto; 
 }
 
-.carousel-control-prev{
-    max-width: 624px;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-}
+.carousel-item {
+
+    float: none;
+  }
