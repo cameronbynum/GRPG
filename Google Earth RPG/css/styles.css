@@ -4,6 +4,7 @@ html, body {
     padding: 0;
     margin: 0;
     font-size: 1rem;
+    scroll-behavior: smooth;
 }
 
 #map-canvas {
@@ -37,4 +38,18 @@ html, body {
 .carousel-item {
 
     float: none;
+  }
+
+.nav-item:hover{
+    color:white !important;
+    background-color: black;
+}
+
+.nav-link:hover{
+    color:white !important;
+    background-color: #212529;
+}
+
+hr {
+    width: 100%;
   }
