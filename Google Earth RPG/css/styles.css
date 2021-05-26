@@ -20,7 +20,6 @@ html, body {
 .self-portrait{
     margin: 0 auto; /* Added */
     float: none; /* Added */
-    margin-bottom: 10px; /* Added */
 }
 
 .navbar .navbar-collapse {
@@ -53,3 +52,4 @@ html, body {
 hr {
     width: 100%;
   }
+
